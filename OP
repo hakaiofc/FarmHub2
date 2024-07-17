@@ -1,0 +1,23 @@
+--GUI
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Kavo/main/HUB"))()
+local Window = Library.CreateLib("HAKAI_OFC Hub", "BloodTheme")
+
+--MAIN
+local Main Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Auto Farm")
+
+Section:NewButton("Health (High Risk)", "dont press more then once or the game will detect", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Push/main/up"))()
+end)
+
+Section:NewButton("BenchOP (High Risk)", "dont press more then once or the game will detect", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Bench/main/OP"))()
+end)
+
+Section:NewButton("Stamina (Low Risk)", "dont press more then once or the game will detect", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Sit/main/UP"))()
+end)
+
+Section:NewButton("Strength Dumbbells (Low Risk Gamepass Only)", "dont press more then once or the game will detect", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hakaiofc/Dumbell/main/OP"))()
+end)
